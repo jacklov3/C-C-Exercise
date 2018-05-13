@@ -10,7 +10,7 @@ int main()
     strcpy(stra,strb);
     cout<<stra<<'\t'<<strb<<endl;
     strcat(stra,strc);
-    cout<<stra<<'\t'<<strb<<endl;
+    cout<<stra<<'\t'<<strc<<endl;
     int x1,x2,x3;
     x1=strcmp("China","Russia");
     x2=strcmp("China","China");
