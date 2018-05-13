@@ -8,15 +8,15 @@ int main()
 {
     int a[N];
     Input(a,N);
-    cout<<"ÅÅĞòÇ°£º"<<endl;
+    cout<<"æ’åºå‰ï¼š"<<endl;
     Output(a,N);
     Sort(a,N);
-    cout<<"ÅÅĞòºó:"<<endl;
+    cout<<"æ’åºå:"<<endl;
     Output(a,N);
     return 0;
 }
 void Input(int x[],int length){
-    cout<<"ÇëÊäÈëÒªÅÅĞòµÄ"<<length<<"¸öÕûÊı"<<endl;
+    cout<<"è¯·è¾“å…¥è¦æ’åºçš„"<<length<<"ä¸ªæ•´æ•°"<<endl;
     for(int i=0;i<length;i++){
         cin>>x[i];
     }
